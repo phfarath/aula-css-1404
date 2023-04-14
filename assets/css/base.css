@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* google fonts  */
+    font-family: 'Catamaran', sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 ul,
@@ -28,8 +30,9 @@ ol {
     background-color: #000;
 }
 
-.bg-image {
-    background-image: url(../images/pexels-pat-whelen-6369229.jpg);
+.bg-image1 {
+    background-image: linear-gradient(rgba(9, 50, 231,.3), rgba(156, 86, 184, 0.6)),
+    url(../images/pexels-aliona-&-pasha-3892172.jpg);
 }
 
 .bg-image-2 {
