@@ -1,17 +1,21 @@
 /* reset css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
-ul,ol{
+
+ul,
+ol {
     list-style: none;
 }
-.container{
+
+.container {
     width: 100vw;
     height: 100vh;
     background-repeat: none;
@@ -19,12 +23,15 @@ ul,ol{
     background-position: 50%;
     background-attachment: fixed;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: #000;
 }
-.bg-image{
+
+.bg-image {
     background-image: url(../images/pexels-pat-whelen-6369229.jpg);
 }
-.bg-image-2{
+
+.bg-image-2 {
     background-image: url(../images/pexels-pixabay-519471.jpg);
 }
